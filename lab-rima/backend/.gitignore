@@ -1,12 +1,12 @@
-db
+# 401 JS
+
+**/db
 *.env
 .*.env
-coverage
 temp
+build
 
-
-# Created by https://www.gitignore.io/api/osx,vim,node,linux,windows
-
+# Created by https://www.gitignore.io/api/vim,osx,node,linux,windows
 ### Linux ###
 *~
 
@@ -20,7 +20,6 @@ temp
 .Trash-*
 
 # .nfs files are created when an open file is removed but is still being accessed
-.nfs*
 
 ### Node ###
 # Logs
@@ -144,4 +143,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/osx,vim,node,linux,windows
+# End of https://www.gitignore.io/api/vim,osx,node,linux,windows
+
