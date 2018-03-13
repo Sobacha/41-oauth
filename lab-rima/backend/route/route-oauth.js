@@ -32,7 +32,6 @@ module.exports = function(router){
           res.redirect(process.env.CLIENT_URL);
         }
         const token = tokenResponse.body.access_token;
-console.log('token', token, 'url', OPEN_ID_URL);
         return superagent.get(OPEN_ID_URL)
           .set('Authorization', `Bearer ${token}`);
       })
